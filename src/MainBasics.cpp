@@ -24,18 +24,18 @@ int main(){
 	//Test Sum of numbers
 	
 	int sumTemp = sum(4, 3);
-	printf("%d\n", sumTemp);
+	printf("sum=%d\n", sumTemp);
 	
 	//Test Count file
 	
-	int countTemp = count(5, 20);
-	printf("%d\n", countTemp);
+	int countTemp = count(3, 23);
+	printf("count=%d\n", countTemp);
 
 
 	//Test Swap
 	int a = 5, b = 7;
 	swap(&a, &b);
-	printf("%d %d\n", a, b);
+	printf("a=%d b=%d\n", a, b);
 
 	//Is Older 
 	char date1[20] = "29-02-2004";
